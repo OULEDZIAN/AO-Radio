@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD0ABD3520D7BA13007C9BFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0ABD3420D7BA13007C9BFC /* AppDelegate.swift */; };
+		BD0ABD3720D7BA13007C9BFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0ABD3620D7BA13007C9BFC /* ViewController.swift */; };
+		BD0ABD3A20D7BA13007C9BFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD0ABD3820D7BA13007C9BFC /* Main.storyboard */; };
+		BD0ABD3C20D7BAAC007C9BFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD0ABD3B20D7BAAC007C9BFC /* Assets.xcassets */; };
+		BD0ABD3F20D7BAAD007C9BFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD0ABD3D20D7BAAD007C9BFC /* LaunchScreen.storyboard */; };
+		BD0ABD4A20D7BAB6007C9BFC /* AO_RadioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0ABD4920D7BAB6007C9BFC /* AO_RadioTests.swift */; };
+		BD0ABD5520D7BAB7007C9BFC /* AO_RadioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0ABD5420D7BAB7007C9BFC /* AO_RadioUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD0ABD4620D7BAB6007C9BFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD0ABD2920D7BA11007C9BFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD0ABD3020D7BA12007C9BFC;
+			remoteInfo = "AO Radio";
+		};
+		BD0ABD5120D7BAB7007C9BFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD0ABD2920D7BA11007C9BFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD0ABD3020D7BA12007C9BFC;
+			remoteInfo = "AO Radio";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD0ABD3120D7BA12007C9BFC /* AO Radio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AO Radio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD0ABD3420D7BA13007C9BFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD0ABD3620D7BA13007C9BFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD0ABD3920D7BA13007C9BFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD0ABD3B20D7BAAC007C9BFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD0ABD3E20D7BAAD007C9BFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD0ABD4020D7BAAD007C9BFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD0ABD4520D7BAB6007C9BFC /* AO RadioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AO RadioTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD0ABD4920D7BAB6007C9BFC /* AO_RadioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AO_RadioTests.swift; sourceTree = "<group>"; };
+		BD0ABD4B20D7BAB7007C9BFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD0ABD5020D7BAB7007C9BFC /* AO RadioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AO RadioUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD0ABD5420D7BAB7007C9BFC /* AO_RadioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AO_RadioUITests.swift; sourceTree = "<group>"; };
+		BD0ABD5620D7BAB7007C9BFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD0ABD2E20D7BA12007C9BFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD0ABD4220D7BAB6007C9BFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD0ABD4D20D7BAB7007C9BFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD0ABD2820D7BA11007C9BFC = {
+			isa = PBXGroup;
+			children = (
+				BD0ABD3320D7BA12007C9BFC /* AO Radio */,
+				BD0ABD4820D7BAB6007C9BFC /* AO RadioTests */,
+				BD0ABD5320D7BAB7007C9BFC /* AO RadioUITests */,
+				BD0ABD3220D7BA12007C9BFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD0ABD3220D7BA12007C9BFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD0ABD3120D7BA12007C9BFC /* AO Radio.app */,
+				BD0ABD4520D7BAB6007C9BFC /* AO RadioTests.xctest */,
+				BD0ABD5020D7BAB7007C9BFC /* AO RadioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD0ABD3320D7BA12007C9BFC /* AO Radio */ = {
+			isa = PBXGroup;
+			children = (
+				BD0ABD3420D7BA13007C9BFC /* AppDelegate.swift */,
+				BD0ABD3620D7BA13007C9BFC /* ViewController.swift */,
+				BD0ABD3820D7BA13007C9BFC /* Main.storyboard */,
+				BD0ABD3B20D7BAAC007C9BFC /* Assets.xcassets */,
+				BD0ABD3D20D7BAAD007C9BFC /* LaunchScreen.storyboard */,
+				BD0ABD4020D7BAAD007C9BFC /* Info.plist */,
+			);
+			path = "AO Radio";
+			sourceTree = "<group>";
+		};
+		BD0ABD4820D7BAB6007C9BFC /* AO RadioTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD0ABD4920D7BAB6007C9BFC /* AO_RadioTests.swift */,
+				BD0ABD4B20D7BAB7007C9BFC /* Info.plist */,
+			);
+			path = "AO RadioTests";
+			sourceTree = "<group>";
+		};
+		BD0ABD5320D7BAB7007C9BFC /* AO RadioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD0ABD5420D7BAB7007C9BFC /* AO_RadioUITests.swift */,
+				BD0ABD5620D7BAB7007C9BFC /* Info.plist */,
+			);
+			path = "AO RadioUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD0ABD3020D7BA12007C9BFC /* AO Radio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD0ABD5920D7BAB7007C9BFC /* Build configuration list for PBXNativeTarget "AO Radio" */;
+			buildPhases = (
+				BD0ABD2D20D7BA12007C9BFC /* Sources */,
+				BD0ABD2E20D7BA12007C9BFC /* Frameworks */,
+				BD0ABD2F20D7BA12007C9BFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AO Radio";
+			productName = "AO Radio";
+			productReference = BD0ABD3120D7BA12007C9BFC /* AO Radio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD0ABD4420D7BAB6007C9BFC /* AO RadioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD0ABD5C20D7BAB7007C9BFC /* Build configuration list for PBXNativeTarget "AO RadioTests" */;
+			buildPhases = (
+				BD0ABD4120D7BAB6007C9BFC /* Sources */,
+				BD0ABD4220D7BAB6007C9BFC /* Frameworks */,
+				BD0ABD4320D7BAB6007C9BFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD0ABD4720D7BAB6007C9BFC /* PBXTargetDependency */,
+			);
+			name = "AO RadioTests";
+			productName = "AO RadioTests";
+			productReference = BD0ABD4520D7BAB6007C9BFC /* AO RadioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD0ABD4F20D7BAB7007C9BFC /* AO RadioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD0ABD5F20D7BAB7007C9BFC /* Build configuration list for PBXNativeTarget "AO RadioUITests" */;
+			buildPhases = (
+				BD0ABD4C20D7BAB7007C9BFC /* Sources */,
+				BD0ABD4D20D7BAB7007C9BFC /* Frameworks */,
+				BD0ABD4E20D7BAB7007C9BFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD0ABD5220D7BAB7007C9BFC /* PBXTargetDependency */,
+			);
+			name = "AO RadioUITests";
+			productName = "AO RadioUITests";
+			productReference = BD0ABD5020D7BAB7007C9BFC /* AO RadioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD0ABD2920D7BA11007C9BFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Ahmed OULEDZIAN";
+				TargetAttributes = {
+					BD0ABD3020D7BA12007C9BFC = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					BD0ABD4420D7BAB6007C9BFC = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = BD0ABD3020D7BA12007C9BFC;
+					};
+					BD0ABD4F20D7BAB7007C9BFC = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = BD0ABD3020D7BA12007C9BFC;
+					};
+				};
+			};
+			buildConfigurationList = BD0ABD2C20D7BA12007C9BFC /* Build configuration list for PBXProject "AO Radio" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD0ABD2820D7BA11007C9BFC;
+			productRefGroup = BD0ABD3220D7BA12007C9BFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD0ABD3020D7BA12007C9BFC /* AO Radio */,
+				BD0ABD4420D7BAB6007C9BFC /* AO RadioTests */,
+				BD0ABD4F20D7BAB7007C9BFC /* AO RadioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD0ABD2F20D7BA12007C9BFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD0ABD3F20D7BAAD007C9BFC /* LaunchScreen.storyboard in Resources */,
+				BD0ABD3C20D7BAAC007C9BFC /* Assets.xcassets in Resources */,
+				BD0ABD3A20D7BA13007C9BFC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD0ABD4320D7BAB6007C9BFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD0ABD4E20D7BAB7007C9BFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD0ABD2D20D7BA12007C9BFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD0ABD3720D7BA13007C9BFC /* ViewController.swift in Sources */,
+				BD0ABD3520D7BA13007C9BFC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD0ABD4120D7BAB6007C9BFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD0ABD4A20D7BAB6007C9BFC /* AO_RadioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD0ABD4C20D7BAB7007C9BFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD0ABD5520D7BAB7007C9BFC /* AO_RadioUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD0ABD4720D7BAB6007C9BFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD0ABD3020D7BA12007C9BFC /* AO Radio */;
+			targetProxy = BD0ABD4620D7BAB6007C9BFC /* PBXContainerItemProxy */;
+		};
+		BD0ABD5220D7BAB7007C9BFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD0ABD3020D7BA12007C9BFC /* AO Radio */;
+			targetProxy = BD0ABD5120D7BAB7007C9BFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD0ABD3820D7BA13007C9BFC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD0ABD3920D7BA13007C9BFC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD0ABD3D20D7BAAD007C9BFC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD0ABD3E20D7BAAD007C9BFC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD0ABD5720D7BAB7007C9BFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD0ABD5820D7BAB7007C9BFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD0ABD5A20D7BAB7007C9BFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AO Radio/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ouledzian.AO-Radio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD0ABD5B20D7BAB7007C9BFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AO Radio/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ouledzian.AO-Radio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BD0ABD5D20D7BAB7007C9BFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AO RadioTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ouledzian.AO-RadioTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AO Radio.app/AO Radio";
+			};
+			name = Debug;
+		};
+		BD0ABD5E20D7BAB7007C9BFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AO RadioTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ouledzian.AO-RadioTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AO Radio.app/AO Radio";
+			};
+			name = Release;
+		};
+		BD0ABD6020D7BAB7007C9BFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AO RadioUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ouledzian.AO-RadioUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AO Radio";
+			};
+			name = Debug;
+		};
+		BD0ABD6120D7BAB7007C9BFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AO RadioUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ouledzian.AO-RadioUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AO Radio";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD0ABD2C20D7BA12007C9BFC /* Build configuration list for PBXProject "AO Radio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD0ABD5720D7BAB7007C9BFC /* Debug */,
+				BD0ABD5820D7BAB7007C9BFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD0ABD5920D7BAB7007C9BFC /* Build configuration list for PBXNativeTarget "AO Radio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD0ABD5A20D7BAB7007C9BFC /* Debug */,
+				BD0ABD5B20D7BAB7007C9BFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD0ABD5C20D7BAB7007C9BFC /* Build configuration list for PBXNativeTarget "AO RadioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD0ABD5D20D7BAB7007C9BFC /* Debug */,
+				BD0ABD5E20D7BAB7007C9BFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD0ABD5F20D7BAB7007C9BFC /* Build configuration list for PBXNativeTarget "AO RadioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD0ABD6020D7BAB7007C9BFC /* Debug */,
+				BD0ABD6120D7BAB7007C9BFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD0ABD2920D7BA11007C9BFC /* Project object */;
+}
