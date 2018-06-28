@@ -1,0 +1,6 @@
+framework module Pods_AO_Radio {
+  umbrella header "Pods-AO Radio-umbrella.h"
+
+  export *
+  module * { export * }
+}
