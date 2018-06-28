@@ -1,0 +1,12 @@
+//
+//  Staging Release.xcconfig
+//  AO Radio
+//
+//  Created by Ahmed OULEDZIAN on 28/06/2018.
+//  Copyright © 2018 Ahmed OULEDZIAN. All rights reserved.
+//
+
+IS_APP_NAME = AO Radio
+IS_APP_VERSION = 0
+IS_APP_BUNDLE_ID = com.ouledzian.AO-Radio
+IS_APP_ICON = AppIconStaging
