@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E1E699C482DA36B939B1179 /* Pods_AO_RadioTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2EFC889D46FE99E84863128 /* Pods_AO_RadioTests.framework */; };
 		BD0ABD3520D7BA13007C9BFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0ABD3420D7BA13007C9BFC /* AppDelegate.swift */; };
 		BD0ABD3720D7BA13007C9BFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0ABD3620D7BA13007C9BFC /* ViewController.swift */; };
 		BD0ABD3A20D7BA13007C9BFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD0ABD3820D7BA13007C9BFC /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		BD0ABD3F20D7BAAD007C9BFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD0ABD3D20D7BAAD007C9BFC /* LaunchScreen.storyboard */; };
 		BD0ABD4A20D7BAB6007C9BFC /* AO_RadioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0ABD4920D7BAB6007C9BFC /* AO_RadioTests.swift */; };
 		BD0ABD5520D7BAB7007C9BFC /* AO_RadioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0ABD5420D7BAB7007C9BFC /* AO_RadioUITests.swift */; };
+		C4B91C994E046407FB8CB3EB /* Pods_AO_RadioUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25C007C183A9D0F5D22C5C90 /* Pods_AO_RadioUITests.framework */; };
+		DC511A1924D9815D61A1250B /* Pods_AO_Radio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96265AE0BE467B431AFD0BD9 /* Pods_AO_Radio.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		25C007C183A9D0F5D22C5C90 /* Pods_AO_RadioUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AO_RadioUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A68A583F8E7E2A067634881 /* Pods-AO RadioUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AO RadioUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AO RadioUITests/Pods-AO RadioUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		96265AE0BE467B431AFD0BD9 /* Pods_AO_Radio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AO_Radio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7DF3D046528E2ED0525BC8E /* Pods-AO Radio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AO Radio.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AO Radio/Pods-AO Radio.debug.xcconfig"; sourceTree = "<group>"; };
+		B2EFC889D46FE99E84863128 /* Pods_AO_RadioTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AO_RadioTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD0ABD3120D7BA12007C9BFC /* AO Radio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AO Radio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD0ABD3420D7BA13007C9BFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD0ABD3620D7BA13007C9BFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,10 @@
 		BD0ABD5020D7BAB7007C9BFC /* AO RadioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AO RadioUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD0ABD5420D7BAB7007C9BFC /* AO_RadioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AO_RadioUITests.swift; sourceTree = "<group>"; };
 		BD0ABD5620D7BAB7007C9BFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1373FAD03DD7A5F2CE81020 /* Pods-AO RadioTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AO RadioTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AO RadioTests/Pods-AO RadioTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D64BEDDDB4AAC48351EA1958 /* Pods-AO RadioUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AO RadioUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AO RadioUITests/Pods-AO RadioUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F76041855DA52453AD89A3CE /* Pods-AO RadioTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AO RadioTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AO RadioTests/Pods-AO RadioTests.release.xcconfig"; sourceTree = "<group>"; };
+		FE711F526B3ABF9E5B80EF24 /* Pods-AO Radio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AO Radio.release.xcconfig"; path = "Pods/Target Support Files/Pods-AO Radio/Pods-AO Radio.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC511A1924D9815D61A1250B /* Pods_AO_Radio.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E1E699C482DA36B939B1179 /* Pods_AO_RadioTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4B91C994E046407FB8CB3EB /* Pods_AO_RadioUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		403B4D755F386361F5B69164 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96265AE0BE467B431AFD0BD9 /* Pods_AO_Radio.framework */,
+				B2EFC889D46FE99E84863128 /* Pods_AO_RadioTests.framework */,
+				25C007C183A9D0F5D22C5C90 /* Pods_AO_RadioUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		623FEA2F5926C8A64E04768C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7DF3D046528E2ED0525BC8E /* Pods-AO Radio.debug.xcconfig */,
+				FE711F526B3ABF9E5B80EF24 /* Pods-AO Radio.release.xcconfig */,
+				C1373FAD03DD7A5F2CE81020 /* Pods-AO RadioTests.debug.xcconfig */,
+				F76041855DA52453AD89A3CE /* Pods-AO RadioTests.release.xcconfig */,
+				6A68A583F8E7E2A067634881 /* Pods-AO RadioUITests.debug.xcconfig */,
+				D64BEDDDB4AAC48351EA1958 /* Pods-AO RadioUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BD0ABD2820D7BA11007C9BFC = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				BD0ABD4820D7BAB6007C9BFC /* AO RadioTests */,
 				BD0ABD5320D7BAB7007C9BFC /* AO RadioUITests */,
 				BD0ABD3220D7BA12007C9BFC /* Products */,
+				623FEA2F5926C8A64E04768C /* Pods */,
+				403B4D755F386361F5B69164 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD0ABD5920D7BAB7007C9BFC /* Build configuration list for PBXNativeTarget "AO Radio" */;
 			buildPhases = (
+				F6F872C9766BA98E706EE817 /* [CP] Check Pods Manifest.lock */,
 				BD0ABD2D20D7BA12007C9BFC /* Sources */,
 				BD0ABD2E20D7BA12007C9BFC /* Frameworks */,
 				BD0ABD2F20D7BA12007C9BFC /* Resources */,
+				EE0B3E3D80E6329D6E56EEEC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD0ABD5C20D7BAB7007C9BFC /* Build configuration list for PBXNativeTarget "AO RadioTests" */;
 			buildPhases = (
+				BE02D901A8CB2FA347A21833 /* [CP] Check Pods Manifest.lock */,
 				BD0ABD4120D7BAB6007C9BFC /* Sources */,
 				BD0ABD4220D7BAB6007C9BFC /* Frameworks */,
 				BD0ABD4320D7BAB6007C9BFC /* Resources */,
@@ -167,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD0ABD5F20D7BAB7007C9BFC /* Build configuration list for PBXNativeTarget "AO RadioUITests" */;
 			buildPhases = (
+				7502887C45624EF08D5E39E8 /* [CP] Check Pods Manifest.lock */,
 				BD0ABD4C20D7BAB7007C9BFC /* Sources */,
 				BD0ABD4D20D7BAB7007C9BFC /* Frameworks */,
 				BD0ABD4E20D7BAB7007C9BFC /* Resources */,
@@ -250,6 +294,83 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7502887C45624EF08D5E39E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AO RadioUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE02D901A8CB2FA347A21833 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AO RadioTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE0B3E3D80E6329D6E56EEEC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AO Radio/Pods-AO Radio-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AO Radio/Pods-AO Radio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6F872C9766BA98E706EE817 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AO Radio-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BD0ABD2D20D7BA12007C9BFC /* Sources */ = {
@@ -428,14 +549,12 @@
 		};
 		BD0ABD5A20D7BAB7007C9BFC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7DF3D046528E2ED0525BC8E /* Pods-AO Radio.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "AO Radio/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ouledzian.AO-Radio";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -445,14 +564,12 @@
 		};
 		BD0ABD5B20D7BAB7007C9BFC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE711F526B3ABF9E5B80EF24 /* Pods-AO Radio.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "AO Radio/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ouledzian.AO-Radio";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -462,16 +579,13 @@
 		};
 		BD0ABD5D20D7BAB7007C9BFC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1373FAD03DD7A5F2CE81020 /* Pods-AO RadioTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "AO RadioTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ouledzian.AO-RadioTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -482,16 +596,13 @@
 		};
 		BD0ABD5E20D7BAB7007C9BFC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F76041855DA52453AD89A3CE /* Pods-AO RadioTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "AO RadioTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ouledzian.AO-RadioTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -502,15 +613,12 @@
 		};
 		BD0ABD6020D7BAB7007C9BFC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A68A583F8E7E2A067634881 /* Pods-AO RadioUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "AO RadioUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ouledzian.AO-RadioUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -521,15 +629,12 @@
 		};
 		BD0ABD6120D7BAB7007C9BFC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D64BEDDDB4AAC48351EA1958 /* Pods-AO RadioUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "AO RadioUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ouledzian.AO-RadioUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
